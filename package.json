@@ -1,0 +1,52 @@
+{
+  "name": "dal-frontend-v2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3003",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx && prettier --check .",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix && prettier --write .",
+    "prettier": "prettier --check .",
+    "fix": "npm run lint:fix && npm run prettier",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.10.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@mui/x-date-pickers": "^6.0.4",
+    "@reduxjs/toolkit": "^1.9.3",
+    "clsx": "^1.2.1",
+    "date-fns": "^2.29.3",
+    "formik": "^2.2.9",
+    "mui-one-time-password-input": "^1.1.0",
+    "next": "13.2.4",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-otp-input": "^3.0.0",
+    "react-redux": "^8.0.5",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "13.2.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7"
+  }
+}

@@ -1,0 +1,15 @@
+# Ignore Next.js build folder
+/.next
+
+# Ignore Node.js modules folder
+/node_modules
+
+# Ignore Git folder
+/.git
+
+# Ignore other irrelevant files
+/coverage
+/flow-typed
+/.vscode
+*.log
+*.swp
